@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9C72F61E630A9A0054BBB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C72F51E630A9A0054BBB7 /* main.m */; };
+		DE9C72F91E630A9A0054BBB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C72F81E630A9A0054BBB7 /* AppDelegate.m */; };
+		DE9C72FC1E630A9A0054BBB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C72FB1E630A9A0054BBB7 /* ViewController.m */; };
+		DE9C73011E630A9A0054BBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9C73001E630A9A0054BBB7 /* Assets.xcassets */; };
+		DE9C73041E630A9A0054BBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C73021E630A9A0054BBB7 /* LaunchScreen.storyboard */; };
+		DE9C730F1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C730E1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.m */; };
+		DE9C731A1E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C73191E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.m */; };
+		DE9C732B1E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C73281E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.m */; };
+		DE9C732C1E630ADC0054BBB7 /* YQRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C732A1E630ADC0054BBB7 /* YQRefreshHeadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE9C730B1E630A9A0054BBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9C72E91E630A9A0054BBB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9C72F01E630A9A0054BBB7;
+			remoteInfo = YQRefreshHeadViewDemo;
+		};
+		DE9C73161E630A9A0054BBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9C72E91E630A9A0054BBB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9C72F01E630A9A0054BBB7;
+			remoteInfo = YQRefreshHeadViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE9C72F11E630A9A0054BBB7 /* YQRefreshHeadViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQRefreshHeadViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9C72F51E630A9A0054BBB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE9C72F71E630A9A0054BBB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE9C72F81E630A9A0054BBB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE9C72FA1E630A9A0054BBB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE9C72FB1E630A9A0054BBB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE9C73001E630A9A0054BBB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE9C73031E630A9A0054BBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE9C73051E630A9A0054BBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9C730A1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQRefreshHeadViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9C730E1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRefreshHeadViewDemoTests.m; sourceTree = "<group>"; };
+		DE9C73101E630A9A0054BBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9C73151E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQRefreshHeadViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9C73191E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRefreshHeadViewDemoUITests.m; sourceTree = "<group>"; };
+		DE9C731B1E630A9A0054BBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9C73271E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YQRefreshHeadView.h"; sourceTree = "<group>"; };
+		DE9C73281E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YQRefreshHeadView.m"; sourceTree = "<group>"; };
+		DE9C73291E630ADC0054BBB7 /* YQRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQRefreshHeadView.h; sourceTree = "<group>"; };
+		DE9C732A1E630ADC0054BBB7 /* YQRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQRefreshHeadView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9C72EE1E630A9A0054BBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9C73071E630A9A0054BBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9C73121E630A9A0054BBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9C72E81E630A9A0054BBB7 = {
+			isa = PBXGroup;
+			children = (
+				DE9C72F31E630A9A0054BBB7 /* YQRefreshHeadViewDemo */,
+				DE9C730D1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests */,
+				DE9C73181E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests */,
+				DE9C72F21E630A9A0054BBB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9C72F21E630A9A0054BBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C72F11E630A9A0054BBB7 /* YQRefreshHeadViewDemo.app */,
+				DE9C730A1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.xctest */,
+				DE9C73151E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9C72F31E630A9A0054BBB7 /* YQRefreshHeadViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C72F71E630A9A0054BBB7 /* AppDelegate.h */,
+				DE9C72F81E630A9A0054BBB7 /* AppDelegate.m */,
+				DE9C72FA1E630A9A0054BBB7 /* ViewController.h */,
+				DE9C72FB1E630A9A0054BBB7 /* ViewController.m */,
+				DE9C73271E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.h */,
+				DE9C73281E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.m */,
+				DE9C73291E630ADC0054BBB7 /* YQRefreshHeadView.h */,
+				DE9C732A1E630ADC0054BBB7 /* YQRefreshHeadView.m */,
+				DE9C73001E630A9A0054BBB7 /* Assets.xcassets */,
+				DE9C73021E630A9A0054BBB7 /* LaunchScreen.storyboard */,
+				DE9C73051E630A9A0054BBB7 /* Info.plist */,
+				DE9C72F41E630A9A0054BBB7 /* Supporting Files */,
+			);
+			path = YQRefreshHeadViewDemo;
+			sourceTree = "<group>";
+		};
+		DE9C72F41E630A9A0054BBB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C72F51E630A9A0054BBB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9C730D1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C730E1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.m */,
+				DE9C73101E630A9A0054BBB7 /* Info.plist */,
+			);
+			path = YQRefreshHeadViewDemoTests;
+			sourceTree = "<group>";
+		};
+		DE9C73181E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C73191E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.m */,
+				DE9C731B1E630A9A0054BBB7 /* Info.plist */,
+			);
+			path = YQRefreshHeadViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9C72F01E630A9A0054BBB7 /* YQRefreshHeadViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9C731E1E630A9A0054BBB7 /* Build configuration list for PBXNativeTarget "YQRefreshHeadViewDemo" */;
+			buildPhases = (
+				DE9C72ED1E630A9A0054BBB7 /* Sources */,
+				DE9C72EE1E630A9A0054BBB7 /* Frameworks */,
+				DE9C72EF1E630A9A0054BBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQRefreshHeadViewDemo;
+			productName = YQRefreshHeadViewDemo;
+			productReference = DE9C72F11E630A9A0054BBB7 /* YQRefreshHeadViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE9C73091E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9C73211E630A9A0054BBB7 /* Build configuration list for PBXNativeTarget "YQRefreshHeadViewDemoTests" */;
+			buildPhases = (
+				DE9C73061E630A9A0054BBB7 /* Sources */,
+				DE9C73071E630A9A0054BBB7 /* Frameworks */,
+				DE9C73081E630A9A0054BBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9C730C1E630A9A0054BBB7 /* PBXTargetDependency */,
+			);
+			name = YQRefreshHeadViewDemoTests;
+			productName = YQRefreshHeadViewDemoTests;
+			productReference = DE9C730A1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE9C73141E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9C73241E630A9A0054BBB7 /* Build configuration list for PBXNativeTarget "YQRefreshHeadViewDemoUITests" */;
+			buildPhases = (
+				DE9C73111E630A9A0054BBB7 /* Sources */,
+				DE9C73121E630A9A0054BBB7 /* Frameworks */,
+				DE9C73131E630A9A0054BBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9C73171E630A9A0054BBB7 /* PBXTargetDependency */,
+			);
+			name = YQRefreshHeadViewDemoUITests;
+			productName = YQRefreshHeadViewDemoUITests;
+			productReference = DE9C73151E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9C72E91E630A9A0054BBB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "俞琦";
+				TargetAttributes = {
+					DE9C72F01E630A9A0054BBB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DE9C73091E630A9A0054BBB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE9C72F01E630A9A0054BBB7;
+					};
+					DE9C73141E630A9A0054BBB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE9C72F01E630A9A0054BBB7;
+					};
+				};
+			};
+			buildConfigurationList = DE9C72EC1E630A9A0054BBB7 /* Build configuration list for PBXProject "YQRefreshHeadViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE9C72E81E630A9A0054BBB7;
+			productRefGroup = DE9C72F21E630A9A0054BBB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9C72F01E630A9A0054BBB7 /* YQRefreshHeadViewDemo */,
+				DE9C73091E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests */,
+				DE9C73141E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9C72EF1E630A9A0054BBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9C73041E630A9A0054BBB7 /* LaunchScreen.storyboard in Resources */,
+				DE9C73011E630A9A0054BBB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9C73081E630A9A0054BBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9C73131E630A9A0054BBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9C72ED1E630A9A0054BBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9C732B1E630ADC0054BBB7 /* UIScrollView+YQRefreshHeadView.m in Sources */,
+				DE9C72FC1E630A9A0054BBB7 /* ViewController.m in Sources */,
+				DE9C72F91E630A9A0054BBB7 /* AppDelegate.m in Sources */,
+				DE9C72F61E630A9A0054BBB7 /* main.m in Sources */,
+				DE9C732C1E630ADC0054BBB7 /* YQRefreshHeadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9C73061E630A9A0054BBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9C730F1E630A9A0054BBB7 /* YQRefreshHeadViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9C73111E630A9A0054BBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9C731A1E630A9A0054BBB7 /* YQRefreshHeadViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9C730C1E630A9A0054BBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9C72F01E630A9A0054BBB7 /* YQRefreshHeadViewDemo */;
+			targetProxy = DE9C730B1E630A9A0054BBB7 /* PBXContainerItemProxy */;
+		};
+		DE9C73171E630A9A0054BBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9C72F01E630A9A0054BBB7 /* YQRefreshHeadViewDemo */;
+			targetProxy = DE9C73161E630A9A0054BBB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE9C73021E630A9A0054BBB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9C73031E630A9A0054BBB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9C731C1E630A9A0054BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE9C731D1E630A9A0054BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9C731F1E630A9A0054BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQRefreshHeadViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YQRefreshHeadViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE9C73201E630A9A0054BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQRefreshHeadViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YQRefreshHeadViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE9C73221E630A9A0054BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQRefreshHeadViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YQRefreshHeadViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQRefreshHeadViewDemo.app/YQRefreshHeadViewDemo";
+			};
+			name = Debug;
+		};
+		DE9C73231E630A9A0054BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQRefreshHeadViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YQRefreshHeadViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQRefreshHeadViewDemo.app/YQRefreshHeadViewDemo";
+			};
+			name = Release;
+		};
+		DE9C73251E630A9A0054BBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQRefreshHeadViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YQRefreshHeadViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQRefreshHeadViewDemo;
+			};
+			name = Debug;
+		};
+		DE9C73261E630A9A0054BBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQRefreshHeadViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YQRefreshHeadViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQRefreshHeadViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9C72EC1E630A9A0054BBB7 /* Build configuration list for PBXProject "YQRefreshHeadViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9C731C1E630A9A0054BBB7 /* Debug */,
+				DE9C731D1E630A9A0054BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9C731E1E630A9A0054BBB7 /* Build configuration list for PBXNativeTarget "YQRefreshHeadViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9C731F1E630A9A0054BBB7 /* Debug */,
+				DE9C73201E630A9A0054BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE9C73211E630A9A0054BBB7 /* Build configuration list for PBXNativeTarget "YQRefreshHeadViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9C73221E630A9A0054BBB7 /* Debug */,
+				DE9C73231E630A9A0054BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE9C73241E630A9A0054BBB7 /* Build configuration list for PBXNativeTarget "YQRefreshHeadViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9C73251E630A9A0054BBB7 /* Debug */,
+				DE9C73261E630A9A0054BBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9C72E91E630A9A0054BBB7 /* Project object */;
+}
